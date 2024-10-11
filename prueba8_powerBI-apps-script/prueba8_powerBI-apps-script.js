@@ -20,7 +20,7 @@ function getFirebaseData() {
     var headers = ['Producto', 'Número', 'Alta', 'Marca', 'Código', 'Presentación', 'Lote', 'Vencimiento', 'Baja'];
     sheet.appendRow(headers);
   
-    // Aplicar negrita a los encabezados
+    // Aplicar negrita a todos los encabezados
     var headerRange = sheet.getRange(1, 1, 1, headers.length);
     headerRange.setFontWeight('bold');
     headerRange.setHorizontalAlignment('center');
