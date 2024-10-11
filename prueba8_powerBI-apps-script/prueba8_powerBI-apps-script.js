@@ -17,7 +17,7 @@ function getFirebaseData() {
     sheet.clear(); // Limpiar los datos antiguos para actualizar con los nuevos
   
     // Agregar encabezados de columna
-    var headers = ['Producto', 'Número', 'Alta', 'Marca', 'Código', 'Presentación', 'Lote', 'Vencimiento', 'Baja', 'Peso', 'Fecha de Registro', 'Temperatura', 'Humedad'];
+    var headers = ['Producto', 'Número', 'Alta', 'Marca', 'Código', 'Presentación', 'Lote', 'Vencimiento', 'Baja'];
     sheet.appendRow(headers);
   
     // Aplicar negrita a los encabezados
@@ -39,11 +39,7 @@ function getFirebaseData() {
           reactivo['06_presentacion'] || '',
           reactivo['07_lote'] || '',
           reactivo['08_vencimiento'] || '',
-          reactivo['09_baja'] || '',
-          reactivo['10_peso'] || '',
-          reactivo['11_fechaRegistro'] || '',
-          reactivo['12_temperatura'] || '',
-          reactivo['13_humedad'] || ''
+          reactivo['09_baja'] || ''
         ];
   
         // Insertar la fila de datos
