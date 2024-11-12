@@ -1,3 +1,5 @@
+// Etapa 8: Código de Google Apps Script
+
 // Función principal que se ejecuta periódicamente para traer los datos de Firebase
 function getFirebaseData() {
     // URL de la API REST de Firebase
