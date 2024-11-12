@@ -1,4 +1,4 @@
-\\ Etapa7: Integración del ESP32 y PN532 con Firebase 
+// Etapa7: Integración del ESP32 y PN532 con Firebase 
 
 #include <Wire.h>
 #include <PN532_I2C.h>
