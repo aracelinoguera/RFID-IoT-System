@@ -1,3 +1,5 @@
+# Etapa 8: Python Script para Power BI
+
 import gspread
 import pandas as pd
 from google.oauth2 import service_account
