@@ -9,10 +9,10 @@
 #include "HX711.h"
 
 // Configuración de credenciales de WiFi y Firebase
-#define WIFI_SSID "Profesores"           // Nombre de la red WiFi
-#define WIFI_PASSWORD "einstein"       // Contraseña de la red WiFi
-#define FIREBASE_HOST "reactivos-a6fee-default-rtdb.firebaseio.com"  // URL de la base de datos de Firebase
-#define FIREBASE_AUTH "DJ0SRNfVwkCtnA0zqxPmWNLEHqRS4r7YdqRg7Rd8"    // Token de autenticación de Firebase
+#define WIFI_SSID "TU_SSID"           // Nombre de la red WiFi
+#define WIFI_PASSWORD "TU_PASSWORD"       // Contraseña de la red WiFi
+#define FIREBASE_HOST "TU_FIREBASE_HOST"  // URL de la base de datos de Firebase
+#define FIREBASE_AUTH "TU_FIREBASE_AUTH"    // Token de autenticación de Firebase
 #define DHTPIN 4     // Pin donde está conectado el DHT11
 #define DHTTYPE DHT11  // Tipo de sensor DHT
 
