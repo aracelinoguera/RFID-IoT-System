@@ -1,4 +1,4 @@
-// Etapa 1: Verificación de Librerías
+// Etapa 1: Verificación de correcta importación de Librerías
 
 #include <WiFi.h>             // Librería para conexión WiFi
 #include <FirebaseESP32.h>    // Librería para manejar la conexión con Firebase
