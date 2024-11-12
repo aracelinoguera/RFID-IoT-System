@@ -1,6 +1,6 @@
 // Etapa 6: Conexión del ESP32 con el Sensor DHT11
 
-#include <DHT.h>  // Incluir librería para manejar el sensor DHT
+#include <DHT.h>  // Librería para manejar el sensor DHT
 
 // Definir pin de datos y el tipo de sensor (DHT11)
 #define DHTPIN 4  // Pin de datos conectado al DHT11
