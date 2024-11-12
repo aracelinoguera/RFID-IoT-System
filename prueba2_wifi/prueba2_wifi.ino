@@ -1,10 +1,10 @@
 // Etapa 2: Conexion del ESP32 con Red WiFi
 
-#include <WiFi.h>    // Librería para establecer conexión WiFi
+#include <WiFi.h>   // Librería para establecer conexión WiFi
 
 // Credenciales de red WiFi
-const char* ssid = "NombredeRed"; // Escribir nombre de la Red WiFi
-const char* password = "Contraseña"; // Escribir contraseña de la Red WiFi
+const char* ssid = "NombredeRed";      // Escribir nombre de la Red WiFi
+const char* password = "Contraseña";  // Escribir contraseña de la Red WiFi
 
 // Tiempo máximo de espera (en milisegundos)
 unsigned long timeout = 10000;  // 10 segundos
