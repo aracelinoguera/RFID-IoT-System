@@ -1,3 +1,5 @@
+// Conexión del ESP32 con el Amplificador de celda de carga HX711
+
 #include "HX711.h"
 
 // HX711 circuit wiring
