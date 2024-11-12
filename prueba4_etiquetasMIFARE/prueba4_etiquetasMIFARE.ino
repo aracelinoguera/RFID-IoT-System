@@ -1,3 +1,5 @@
+// Etapa 4: Configuración de Etiquetas MIFARE Classic 1k
+
 #include <Wire.h>
 #include <PN532_I2C.h>
 #include <PN532.h>
