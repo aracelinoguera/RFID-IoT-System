@@ -1,3 +1,5 @@
+// Etapa 9: Visualizacion de datos de Firebase en Google Sheets mediante Google Apps Script
+
 // Función principal que se ejecuta periódicamente para traer los datos de Firebase
 function getFirebaseData() {
     // URL de la API REST de Firebase
