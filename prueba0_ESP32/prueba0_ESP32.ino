@@ -1,4 +1,4 @@
-// Etapa 0: Prueba de Conexión ESP32 Dev Module
+// Etapa 0: Prueba de Conexión del ESP32 Dev Module
 
 // Definir el pin del LED
 int ledPin = 2;  // Asignar el pin GPIO 2 al LED
