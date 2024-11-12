@@ -1,3 +1,5 @@
+# Etapa 10: Desarrollo de Interfaz Gráfica con Python Tkinter
+
 import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox
 import serial

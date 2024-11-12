@@ -1,3 +1,5 @@
+// Etapa 10: Desarrollo de Modo Interfaz y Modo Manual en Arduino IDE
+
 #include <Wire.h>
 #include <PN532_I2C.h>
 #include <PN532.h>
