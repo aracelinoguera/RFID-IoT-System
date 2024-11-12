@@ -1,3 +1,5 @@
+// Etapa 9: Integración simultánea del ESP32 con los dispositivos PN532, HX711, DHT11 y Firebase
+
 #include <Wire.h>
 #include <PN532_I2C.h>
 #include <PN532.h>
